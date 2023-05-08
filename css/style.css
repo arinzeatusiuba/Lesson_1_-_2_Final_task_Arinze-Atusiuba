@@ -1,52 +1,142 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #555;
+}
+nav {
+   float: right;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+li {
+   text-align: center;
+   padding: 14px 12px;
+}
+a {
+    text-decoration: none;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+li a:hover {
+    text-decoration: underline
 }
+
+.small-text {
+    font: size 0.9rem;
+}
+.menu-bg {
+    width: 40px;
+    height: 40px;
+   
+}
+
+.menu-bg:hover {
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.menu-button {
+    width: 15px;
+}
+
+.profile-pic {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+ border-radius: 50%; 
+ background-color: royalblue
+}
+
+.search-wrapper {
+height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    position:relative
+}
+
+input {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;;
+
+
+}
+
+.Search {
+width: 15px;
+position: absolute;
+top: 15px;
+left: 15px;
+
+}
+
+.mic {
+    size: 32px;
+    width: 15px;
+    position: absolute;
+    top: 12px;
+	left: 540px;
+}
+
+.buttons {
+ width: 350px;
+ margin: auto;
+ margin-top: 30px;
+}
+
+
+button {
+	border: 1px solid transparent;
+	padding: 8px 12px;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+}
+button :hover {
+	border: 1px solid #eee;
+	box-shadow: 0 0 2px 1px rgb(189, 189, 189 0.5);
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+	
+}
+
+.panel {
+border-bottom: 1px solid #ddd;
+height: 50px;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+
+p {
+	color: gray;
+	padding-left: 13px;
+}
+
+.leaf {
+width: 15px;	
+}  
 
 body {
-	line-height: 1;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote::before, blockquote::after,
-q::before, q::after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Do not write a css rule above here! Use the space below  */
-
-
-/* Write your css below here */
