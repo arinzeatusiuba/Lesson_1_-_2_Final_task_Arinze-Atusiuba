@@ -125,8 +125,7 @@ footer {
 	width: 100%;
 	background-color: #f2f2f2;
     position: absolute;
-    bottom: 0;
-	
+    bottom: 0;	
 }
 
 .panel {
@@ -150,3 +149,6 @@ body {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.carbon {
+    width: 70vh; 
+}
